@@ -13,10 +13,10 @@
         <title>JSP Page</title>
     </head>
     <body>
-        
-            Hello ${sessionScope.account.displayname}, click 
+        <h1 style="text-align: center;color: #330033">FPT UNIVERSITY</h1>
+         <h1 style="color: black">Hello ${sessionScope.account.displayname}, click 
             <a href="http://localhost:9999/AssignmentFinal/login">here</a> to logout.
-            <br/>
+            <br/></h1>
 
             <c:if test="${sessionScope.account.is_Student}">
                 <a href="student/timetable?stdid=${sessionScope.account.stdid}"><h1>Time Table</h1></a> <br/>
