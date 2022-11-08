@@ -12,8 +12,10 @@
         <title>JSP Page</title>
     </head>
     <body>
+        <h1 style="text-align: center; color: black; font-size: xx-large">FPT UNIVERSITY</h1>
     <center>
         <form action="login" method="POST">
+            
             <table border="1px" style="background-color:#535241">
                 <tr>
                     <td>Username:</td>
