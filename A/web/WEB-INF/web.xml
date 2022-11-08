@@ -57,7 +57,7 @@
         <servlet-class>assignment.lecturer.TimetableController</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>Attendend Talking</servlet-name>
+        <servlet-name>fvoamk</servlet-name>
         <servlet-class>assignment.lecturer.AttController</servlet-class>
     </servlet>
     <servlet-mapping>
@@ -117,7 +117,7 @@
         <url-pattern>/lecturer/timetable</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>Attendend Talking</servlet-name>
+        <servlet-name>fvoamk</servlet-name>
         <url-pattern>/lecture/takeatt</url-pattern>
     </servlet-mapping>
     <session-config>

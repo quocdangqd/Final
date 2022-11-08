@@ -24,7 +24,6 @@
 
             <c:if test="${!sessionScope.account.is_Student}">
                 <a href="lecturer/timetable?lid=${sessionScope.account.lid}"><h1>Time Table</h1></a> <br/><br
-<!--                <a href="lecturer/attendend?lid=${sessionScope.account.lid}"><h1>Attendend Talking</h1></a> <br/><br-->
             </c:if>
        
 

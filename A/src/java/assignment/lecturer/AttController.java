@@ -7,6 +7,7 @@ package assignment.lecturer;
 
 import dal.assignment.SessionDBContext;
 import java.io.IOException;
+import java.io.PrintWriter;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;

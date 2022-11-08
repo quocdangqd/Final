@@ -13,7 +13,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
-  <body>
+    <body>
         Take attendance for Group: ${requestScope.ses.group.name} <br/>
         Subject: ${requestScope.ses.group.subject.name} <br/>
         Room: ${requestScope.ses.room.name} <br/>

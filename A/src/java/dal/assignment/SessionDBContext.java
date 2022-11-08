@@ -101,7 +101,8 @@ public class SessionDBContext extends dal.DBContext<Session> {
         return sessions;
     }
 
-   public void update(Session model) {
+    @Override
+    public void update(Session model) {
         try {
             connection.setAutoCommit(false);
             String sql = "UPDATE [Session] SET attanded = 1 WHERE sesid = ?";
@@ -195,7 +196,7 @@ public class SessionDBContext extends dal.DBContext<Session> {
                     TimeSlot t = new TimeSlot();
                     t.setId(rs.getInt("tid"));
                     t.setDescription(rs.getString("tdescription"));
-                    ses.setSlot(t);
+                    ses.setTimeslot(t);
 
                     Lecturer l = new Lecturer();
                     l.setId(rs.getInt("lid"));
@@ -214,7 +215,7 @@ public class SessionDBContext extends dal.DBContext<Session> {
 
                     ses.setDate(rs.getDate("date"));
                     ses.setIndex(rs.getInt("index"));
-                    ses.setAttanded(rs.getBoolean("attanded"));
+                    ses.setAttandated(rs.getBoolean("attanded"));
                 }
                 //read student
                 Student s = new Student();
