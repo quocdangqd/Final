@@ -35,7 +35,7 @@
             height:650px;
             width:1325px;
             margin:auto;
-            background-image: url(img/3.png);
+            background-image: url(img/3.jpg);
             background-size: cover;
             background-repeat: no-repeat;
         }
