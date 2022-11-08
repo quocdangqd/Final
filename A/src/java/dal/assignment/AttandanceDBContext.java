@@ -64,7 +64,6 @@ public class AttandanceDBContext extends DBContext<Attandance> {
                 Group g = new Group();
                 TimeSlot t = new TimeSlot();
                 Subject sub = new Subject();
-                attand.setId(rs.getInt("aid"));
                 attand.setPresent(rs.getBoolean("present"));
                 
 
